@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Alata", sans-serif;
+}
+
+body {
+    width: 100%;
+    margin: 0 auto;
+    font-family: "Alata", sans-serif;
+    font-size: 15px;
+    background-color: #fff;
+  }
+
+:root{
+    --white: hsl(0, 0%, 100%);
+  --black: hsl(0, 0%, 0%);
+  --dark-gray: hsl(0, 0%, 55%);
+  --very-dark-gray: hsl(0, 0%, 41%);
+}
+/*
+header{
+    background-image: url(./images/mobile/image-hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+
+header nav{
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--white);
+}
+header ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul li {
+    list-style: none;
+    margin-left: 20px;
+}
+
+header ul li a {
+    text-decoration: none;
+    padding: 6px 15px;
+    color: var(--white);
+}
+
+.header-img{
+    width: 100%;
+    display: block;
+}
+
+
+header .menu-toggle {
+    display: none; 
+    cursor: pointer; 
+    font-size: 2rem;
+    color: white;
+}*/
+header{
+    background-image: url(images/desktop/image-hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    padding: 50px 140px
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--white);
+}
+
+header ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul li {
+    list-style: none;
+    margin-left: 20px;
+}
+
+header ul li a {
+    text-decoration: none;
+    padding: 6px 15px;
+    color: var(--white);
+}
+
+
+header .menu-toggle {
+    display: none; 
+    cursor: pointer; 
+    font-size: 2rem;
+    color: white;
+}
+
+.top-title{
+    font-family: "Josefin Sans", sans-serif;
+    color: var(--white);
+    font-weight: 300;
+    font-size: 4.5em;
+    width: 55%;
+    text-transform: uppercase;
+    margin: 160px 0;
+    border: 2px solid var(--white);
+    padding: 40px 10px 30px 40px;
+}
+
+/*section intro*/
+
+.intro{
+    display: flex;
+    margin: 130px 0px 170px 140px;
+}
+
+.intro_text{
+    background-color: var(--white);
+    padding: 100px 0px 10px 90px;
+    margin-top: 165px;
+    position: relative;
+    right: 150px;
+}
+
+.intro_text h2{
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 3em;
+    font-weight: 300;
+    color: var(--black);
+    text-transform: uppercase;
+    line-height: 1.05;
+    margin-bottom: 25px;
+}
+
+.intro_text p{
+    color: var(--veryDarkGray);
+    line-height: 1.7;
+}
+
+/* section gallerie*/
+
+.gallery{
+    margin: 0px 140px 150px 140px;
+    display: grid;
+    grid-template-columns: 1fr 180px;
+    gap: 70px;
+}
+
+.gallery_title{
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 3em;
+    font-weight: 300;
+    color: var(--black);
+    text-transform: uppercase;
+}
+
+.gallery_btn{
+    color: var(--black);
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 5px;
+    border: 2px solid hsla(0, 0%, 0%, 0.5);
+    padding: 10px 40px;
+    position: relative;
+    transition: 0.8s;
+    overflow: hidden;
+    text-align: right;
+}
+
